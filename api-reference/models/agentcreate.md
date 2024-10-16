@@ -1,0 +1,11 @@
+# AgentCreate
+
+
+## Fields
+
+| Field                                                                              | Type                                                                               | Required                                                                           | Description                                                                        |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `name`                                                                             | *str*                                                                              | :heavy_check_mark:                                                                 | N/A                                                                                |
+| `timezone`                                                                         | *str*                                                                              | :heavy_check_mark:                                                                 | N/A                                                                                |
+| `type_extra`                                                                       | [models.AgentCreateTypeExtra](../models/agentcreatetypeextra.md)                   | :heavy_check_mark:                                                                 | N/A                                                                                |
+| `variables`                                                                        | [OptionalNullable[models.AgentCreateVariables]](../models/agentcreatevariables.md) | :heavy_minus_sign:                                                                 | N/A                                                                                |
